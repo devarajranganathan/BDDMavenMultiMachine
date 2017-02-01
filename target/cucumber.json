@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 167130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Steps.startup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 25682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21525846547,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Test_Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2145229255,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "Test_Steps.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248905849,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "Test_Steps.user_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1068652293,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "Test_Steps.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@scenario1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 40301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Steps.startup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Successful LogOut",
+        "description": "",
+        "id": "login-action;successful-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 17780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2586647264,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "Test_Steps.user_LogOut_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5003465488,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Message displayed LogOut Successfully",
+            "match": {
+              "location": "Test_Steps.message_displayed_LogOut_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Feature/LogIn_Test.feature"
+  }
+]
